@@ -1,4 +1,4 @@
-# 📄 Simple RAG — Retrieval-Augmented Generation with PDF
+# 📄 Retrieval-Augmented Generation with PDF
 
 A simple command-line RAG (Retrieval-Augmented Generation) pipeline that lets you chat with any PDF document using local embeddings and Google Gemini as the LLM.
 
