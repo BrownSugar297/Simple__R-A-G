@@ -4,7 +4,7 @@ from google import genai
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 
-GEMINI_API_KEY = "AIzaSyDpoCh29VLO4ybFeM7PH6LzuCqY2khFyao"
+GEMINI_API_KEY = "Ashikur Aahman"
 
 # Gemini client
 client = genai.Client(api_key=GEMINI_API_KEY)
