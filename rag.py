@@ -6,15 +6,12 @@ from langchain_huggingface import HuggingFaceEmbeddings
 
 GEMINI_API_KEY = "Ashikur Aahman"
 
-# Gemini client
 client = genai.Client(api_key=GEMINI_API_KEY)
 
-# Embedding model
 embedding = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2"
 )
 
-# Load vector database
 vector_db = Chroma(
     persist_directory="./chroma_db",
     embedding_function=embedding
